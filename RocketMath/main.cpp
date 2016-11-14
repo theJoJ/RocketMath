@@ -3,6 +3,8 @@
 using namespace std;
 
 
+//This function adds two float values and prints it out to the screen.
+
 int add2nums(float a, float b){
 
 
@@ -11,6 +13,7 @@ cout<<"The answer is: "<<(a + b)<<endl;
 
 }
 
+//This does the same as the above one, except it is subtracting the two variables.
 
 int sub2nums(float a, float b){
 
@@ -18,10 +21,17 @@ int sub2nums(float a, float b){
 
 }
 
+//Same thing, just division.
+
 int div2nums(float a, float b){
     cout<<"The quotient of these two numbers is: "<< (a/b)<<endl;
 
 }
+
+//The user will enter two numbers.
+//If-else statement determines the function to be used.
+
+
 int main()
 {
     float a = 0;
