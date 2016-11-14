@@ -1,29 +1,57 @@
 #include <iostream>
-
+#include <stdio.h>
 using namespace std;
 int add2nums(int a, int b){
 
-    cout<<(a + b)<<endl;
+//cout << "Hello world!" << endl;
+//
+//
+//
+//cout<<"Please enter your first number"<<endl;
+//cin>>a;
+//
+//  cout<<"Please enter your second number"<<endl;
+//
+//
+//cin>>b;
+cout<<"The answer is: "<<(a + b)<<endl;
 
+
+}
+
+int sub2nums(int a, int b){
+
+    cout<<"The answer is: "<<(a - b);
 
 }
 int main()
 {
+    int a = 0;
+    int b = 0;
+    int c = 0;
+cout<<"Please enter number 1: "<<endl;
 
-int a = 0;
-int b = 0;
-    cout << "Hello world!" << endl;
+   cin>>a;
 
-
-
-  cout<<"Please enter your first number"<<endl;
- cin>>a;
-
-  cout<<"Please enter your second number"<<endl;
-
+   cout<<"Please enter number 2: "<<endl;
 
    cin>>b;
-   add2nums(a, b);
+   cout<<"Please enter 1 for addition, 2 for subtraction: "<<endl;
+
+   cin>>c;
+
+    if (c==1){
+     add2nums(a, b);
+
+    }
+    else if (c==2){
+
+
+    sub2nums(a, b);
+
+    }
+
+
 
 return 0;
 }
