@@ -1,27 +1,25 @@
 #include <iostream>
 #include <stdio.h>
 using namespace std;
+
+
 int add2nums(int a, int b){
 
-//cout << "Hello world!" << endl;
-//
-//
-//
-//cout<<"Please enter your first number"<<endl;
-//cin>>a;
-//
-//  cout<<"Please enter your second number"<<endl;
-//
-//
-//cin>>b;
+
 cout<<"The answer is: "<<(a + b)<<endl;
 
 
 }
 
+
 int sub2nums(int a, int b){
 
     cout<<"The answer is: "<<(a - b);
+
+}
+
+int div2nums(int a, int b){
+    cout<<"The quotient of these two numbers is: "<< (a/b)<<endl;
 
 }
 int main()
@@ -36,7 +34,7 @@ cout<<"Please enter number 1: "<<endl;
    cout<<"Please enter number 2: "<<endl;
 
    cin>>b;
-   cout<<"Please enter 1 for addition, 2 for subtraction: "<<endl;
+   cout<<"Please enter 1 for addition, 2 for subtraction, and 3 for division: "<<endl;
 
    cin>>c;
 
@@ -49,6 +47,9 @@ cout<<"Please enter number 1: "<<endl;
 
     sub2nums(a, b);
 
+    }
+    else if (c == 3){
+    div2nums(a, b);
     }
 
 
