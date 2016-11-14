@@ -3,7 +3,7 @@
 using namespace std;
 
 
-int add2nums(int a, int b){
+int add2nums(float a, float b){
 
 
 cout<<"The answer is: "<<(a + b)<<endl;
@@ -12,21 +12,21 @@ cout<<"The answer is: "<<(a + b)<<endl;
 }
 
 
-int sub2nums(int a, int b){
+int sub2nums(float a, float b){
 
     cout<<"The answer is: "<<(a - b);
 
 }
 
-int div2nums(int a, int b){
+int div2nums(float a, float b){
     cout<<"The quotient of these two numbers is: "<< (a/b)<<endl;
 
 }
 int main()
 {
-    int a = 0;
-    int b = 0;
-    int c = 0;
+    float a = 0;
+    float b = 0;
+    float c = 0;
 cout<<"Please enter number 1: "<<endl;
 
    cin>>a;
